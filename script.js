@@ -41,7 +41,7 @@ let user ={
     address:"Kandy,srilanka"
 }
 //input  forIn loop method  to define inputs
-for (const data in user) {//catching user object's data (keys)
+for (const data in user) {//catching user's object data (keys)
     // console.log(data);
      //console.log(user[data]);//catching key's data
     let listItem = document.createElement("li");
